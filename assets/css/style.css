@@ -1,0 +1,110 @@
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+  }
+
+  header h1 {
+    font-size: 100%;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+
+  nav a {
+    color: #b9c6ae;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration: underline;
+
+  }
+  
+
+
+  .card {
+    height: 100%;
+    width: 100%;
+
+}
+
+  .card1,
+  .card2,
+  .card3,
+  .card4
+  {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card1 {
+    top: 10px;
+    background: #6b9080;
+  }
+  .card2 {
+    top: 10px;
+    background: #eaf4f4;
+  }
+  .card3 {
+    top: 10px;
+    background: #cce3de;
+  }
+  .card4 {
+    top: 10px;
+    background: #cce3de;
+  }
+
+
+  .card header {
+    padding: 20px;
+  }
+  
+  .card p {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+ 
+  /*
+  @media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+   
+    
+    header {
+      background: #772014;
+    }
+    
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  
+    
+    header {
+      background: #8ac4ff;
+    }
+    
+    
+  }
+  */
