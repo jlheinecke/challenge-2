@@ -1,34 +1,35 @@
-  
   body {
     display: flex;
-  
+    background-color: azure;
+
     flex-direction: column;
-    font-size: 16px;
+    font-size: 18px;
   }
-  
+
   header {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    padding: 1% 1% 1% 0%;
     background-color: #13293d;
-    color: #fff;
-  }
-
-  header aside h1 {
-    /* font-size: 100%; */
-    color: #13293d;
-    justify-content: center;
   }
 
   aside {
+    height: 40px;
     width: auto;
-    text-align: center;
     background-color: #b9c6ae;
-    padding: 1% 5% 1% 1%;
-    margin: 1px;
+    padding: 0% 2% 0% 2%;
+
   }
+
+  aside p {
+    font-size: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #13293d;
+  }
+
 
   nav ul {
     display: flex;
@@ -44,56 +45,80 @@
     text-decoration: underline;
 
   }
+
+  /* main {
+    display: flex;
+    flex-flow: column;
+    
+  } */
+
+  main header {
+  background-color:azure;
+  color: #13293d;
+  font-weight: bold;
+  flex-wrap: wrap;
+  width: 10%;
+  text-align: right;
+  border-right: solid 2px #13293d;
   
+  margin: 5px;
+}
 
+/* header .row2 {
+  margin: 20px;
+} */
 
-  /* .card {
+  .row1 {
+    height: 40vh;
+   
+  }
+
+  .row1 img {
     height: 100%;
     width: 100%;
 
-} */
-
-  .card1,
-  .card2,
-  .card3,
-  .card4
-  {
-    position: relative;
-    width: 100%;
-    height: 20px;
-    border-radius: 10px;
-  }
-  .card1 {
-   height: 30vh;
-    
-  }
-  .card2 {
-    top: 10px;
-    background: #eaf4f4;
-  }
-  .card3 {
-    top: 10px;
-    background: #cce3de;
-  }
-  .card4 {
-    top: 10px;
-    background: #cce3de;
   }
 
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    top: 0px;
+    border-color: red;
+    border-width: 1px;
+    border-style: dashed;
+  }
 
-  .card header {
-    padding: 20px;
+  .row3 {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    top: 0px;
+    border-color: red;
+    border-width: 1px;
+    border-style: dashed;
   }
-  
-  .card p {
-    text-align: center;
+
+  .row4 {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    top: 0px;
+    border-color: red;
+    border-width: 1px;
+    border-style: dashed;
   }
-  
-  .card img {
-    width: 100%;
-  }
-  
- 
+
+
+
+  /* .card img {
+    width: 20%;
+  } */
+
+
   /*
   @media screen and (max-width: 992px) {
     .card {
